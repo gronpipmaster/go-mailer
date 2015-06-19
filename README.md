@@ -7,7 +7,7 @@ go get github.com/gronpipmaster/go-mailer
 ```
 
 ## Usage
-```golang
+```go
 //create mail server
 mailServer := mailer.New("example.com:587", "from", "pass")
 //listen and wait messages
